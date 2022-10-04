@@ -1,0 +1,5 @@
+autopep8 --max-line-length 140 --in-place --aggressive --aggressive --select=E,W pipelines\3_rfm.py
+pylint --max-line-length=140 --fail-under=7 --disable=C0301,C0114 --good-names=i,x,y,l1,l2 C:\Users\cmooney\Documents\GitHub\metricus\pipelines\9_ltv.py
+
+generating requirements
+pipreqs  --force
